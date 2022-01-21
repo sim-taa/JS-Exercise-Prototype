@@ -49,8 +49,8 @@ Person.prototype.eat = function(edible){
     this.stomach.push(edible);
   }
 } 
-Person.prototype.poop = fucntion(){
-  this.stomach [];
+Person.prototype.poop = function(){
+ // this.stomach [];
 }
 
 Person.prototype.toString = function(){
@@ -59,11 +59,11 @@ Person.prototype.toString = function(){
 // create new people
 const sallie = new Person('Sallie', 26);
 const mark = new Person('Mark', 23);
-const cori = ner Person('Cori', 25)
+//const cori = ner Person('Cori', 25)
 
 console.log(sallie.toString());
 console.log(mark.toString());
-console.log(cori.toString());
+//console.log(cori.toString());
 
 mark.eat('pizza')
 
